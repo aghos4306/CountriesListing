@@ -67,15 +67,21 @@ dependencies {
     annotationProcessor "com.google.dagger:dagger-version-processor:$daggerVersion"
 
     //Recyclerview
-    implementation "com.androidx.support:recyclerview-v7:$supportVersion"
+    //implementation "com.androidx.support:recyclerview-v7:$supportVersion"
+    implementation "androidx.recyclerview:recyclerview:1.2.1"
+    implementation "androidx.recyclerview:recyclerview-selection:1.1.0"
 
     //Glide
     implementation "com.github.bumptech.glide:glide:$glideVersion"
-    implementation "com.androidx.support:appcompat-v7:$supportVersion"
+
+    //implementation "com.android.support:appcompat-v7:$supportVersion"
+    //noinspection GradleCompatible
+    //implementation "com.android.support:support-compat:28.0.0"
 
     //Lifecycle
     implementation "android.arch.lifecycle:extensions:$lifeCycleExtensionVersion"
 
     //Mockito
     testImplementation "org.mockito:mockito-inline:$mockitoVersion"
+
 }
