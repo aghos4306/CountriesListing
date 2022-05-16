@@ -1,7 +1,6 @@
 package com.aghogho.countrieslistingapp.view
 
 
-import android.arch.lifecycle.ViewModelProviders
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
